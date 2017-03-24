@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open sans", sans-serif;
+}
+  #head {
+  background-color: black;
+  width: 100%;
+  height: 35px;
+  font-family: "Open sans", sans-serif;
+}
+.main-width {
+  width: 1000px;
+  margin: auto;
+}
+#logo {
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  margin-top: 0;
+  padding-top: 6px;
+  letter-spacing: 0.3em;
+  float: left;
+}
+
+span {
+  color: #53C6A3;
+}
+#menu {
+  float: right;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  font-weight: bolder;
+  list-style: none;
+  margin-top: 0;
+  padding-top: 6px;
+  letter-spacing: 0.3em;
+}
+
+#menu li {
+  display: inline-block;
+}
+#menu a {
+  margin-left: 30px;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+#slider {
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to bottom, #ffffff, #e5e5e5);
+    background-position: center;
+    background-size: contain;
+    box-sizing: border-box;
+}
+
+#black-chair {
+    float: left;
+    background-image: url("../images/black_chair.png");
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 337px;
+    margin: 20px auto;
+}
+#zobacz {
+  float: right;
+  width: 50%;
+  margin: 20px auto;
+}
+#zobacz h2 {
+  text-transform: uppercase;
+  font-size: 34px;
+  letter-spacing: 0.15em;
+  margin-left: 15px;
+}
+#zobacz p {
+  color: #555;
+}
+#button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #53C6A3;
+  font-family: "Open sans", sans-serif;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  font-size: 25px;
+  color: white;
+  margin: auto 70px;
+}
+#chair-examples {
+  box-sizing: border-box;
+}
+.box {
+  display: inline-block;
+  width: 329px;
+  height: 225px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  margin: 20px auto;
+  background-color: white;
+}
+.clear {
+  clear: both;
+  display: block;
+}
+#left {
+  float: left;
+  background-image: url("../images/box1_img.jpg");
+  background-size: contain;
+}
+
+#right {
+  float: right;
+  text-align: left;
+  padding-left: 20px;
+
+}
+#right p {
+  font-size: 14px;
+  color: #777;  
+}
+
+#center {
+  margin: 20px 6px;
+  background-image: url("../images/box2_img.jpg");
+  background-size: contain;
+}
