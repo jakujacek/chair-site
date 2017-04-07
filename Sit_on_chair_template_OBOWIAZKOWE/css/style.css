@@ -16,7 +16,7 @@ body {
   width: 1000px;
   margin: auto;
 }
-#logo {
+.logo {
   text-transform: uppercase;
   font-size: 16px;
   color: white;
@@ -26,7 +26,7 @@ body {
   float: left;
 }
 
-span {
+.logo span {
   color: #53C6A3;
 }
 #menu {
@@ -343,7 +343,7 @@ hr {
 }
 
 #plan-middle .male-kolo {
-  background-color: #F2F2F2;
+  background-color: ;
 }
 #plan-middle .cena-kolo {
   border: 2px solid white;
@@ -352,7 +352,7 @@ hr {
 
 #formula {
   width: 100%;
-  height: 600px;
+  height: 500px;
   background-color: white;
 }
 #formula h3 {
@@ -376,11 +376,140 @@ hr {
 .form {
   margin-top: 20px;
   display: block;
-  width: 60%;
+  width: 100%;
   font-size: 30px;
   border: 1px solid #53C6A3;
 
 }
 input {
   height: 70px;
+}
+.main-form{
+  float: left;
+  width: 55%;
+}
+.parent-red-chair{
+  float: left;
+  width: 45%;
+  position: relative;
+}
+.red-chair{
+  width: 100%;
+  height: 200px;
+  background-image: url("../images/red_chair.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: 35px;
+  left: 110px;
+}
+.parent-red-chair .ok{
+  width: 55px;
+  height: 55px;
+  border: 1px solid #53C6A3;
+  position: absolute;
+  background-image: url("../images/form_ok.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  top: 270px;
+  left: 60px;
+}
+
+.parent-red-chair p{
+  position: absolute;
+  text-overflow: clip;
+  top: 267px;
+  left: 125px;
+  font-size: 22px;
+  color: lightgrey;
+  font-weight: 500;
+}
+.parent-red-chair input{
+  width: 375px;
+  height: 76px;
+  border-radius: 10px;
+  position: absolute;
+  top: 362px;
+  left: 60px;
+  border: 1px solid transparent;
+  background-color: #53C6A3;
+  color: white;
+  text-transform: uppercase;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+footer{
+  height: 100px;
+}
+.reserved{
+  float: left;
+  width: 60%;
+  position: relative;
+  height: 70px;
+}
+.reserved p{
+  color: grey;
+  font-size: 16px;
+  position: absolute;
+  top: 12.5px;
+}
+.icons{
+  float: right;
+  width: 40%;
+  position: relative;
+  height: 70px;
+}
+#flickr{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/flickr.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+#vimeo{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/vimeo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+#pinterest{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/pinterest.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+#twitter{
+  width: 35px;
+  height: 35px;
+  background-image: url('../images/twitter.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+.logo-foot{
+  text-transform: uppercase;
+  font-size: 18px;
+  color: grey;
+  margin: 7px auto;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logo-foot span{
+  color: #555;
+  font-weight: bolder;
 }
