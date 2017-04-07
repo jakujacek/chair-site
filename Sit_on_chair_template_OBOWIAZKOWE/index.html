@@ -28,20 +28,32 @@
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                     eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum.
+                    nisi ut aliquip ex ea commodo consequat.
                 </p>
                 <input type="button" name="zobacz_wiecej" id="button" value="zobacz więcej"/>
             </div>
         </article id="chair-examples">
     </section>
     <section class="main-width">
-       <div class="box" id="left"></div>
-       <div class="box" id="center"></div>
+       <div class="box" id="left">
+          <div class="opacity-blue">
+              <p>
+                  Chair CLAIR
+              </p>
+              <hr class="line-blue"></hr>
+          </div>
+       </div>
+       <div class="box" id="center">
+          <div class="opacity-blue">
+            <p>
+                Chair MARGARITA
+            </p>
+              <hr class="line-blue"></hr>
+          </div>
+       </div>
        <div class="box" id="right">
           <h3>Finds all input</h3>
+          <div class="line-blue"></div>
           <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -51,6 +63,78 @@
           </p>
        </div>
        <div class="clear"></div>
+    </section>
+    <section  id="list-plans">
+        <article class="main-width">
+            <h3>Cennik</h3>
+            <hr></hr>
+            <div class="plan" id="plan-left">
+                <div class="kolo"></div>
+                <div class="male-kolo"></div>
+                <h3>basic plan</h3>
+                <div class="cena-kolo">
+                    <p>
+                      85<sup>99</sup>
+                    </p>
+                    <p>
+                      pln/msc
+                    </p>
+                </div>
+                <div id="text-left" class="text-inside">
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                </div>
+                <input type="button" name="choice" value="dołącz" class="choice-btn"/>
+            </div>
+            <div class="plan" id="plan-middle">
+                <div class="kolo"></div>
+                <div class="male-kolo"></div>
+                <h3>standard plan</h3>
+                <div class="cena-kolo">
+                    <p>
+                      95<sup>99</sup>
+                    </p>
+                    <p>
+                      pln/msc
+                    </p>
+                </div>
+                <div id="text-middle" class="text-inside">
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                    <p>Gwarancja 5 lat</p>
+                </div>
+                <input type="button" name="choice" value="dołącz" class="choice-btn"/>
+            </div>
+            <div class="plan" id="plan-right">
+                <div class="kolo"></div>
+                <div class="male-kolo"></div>
+                <h3>advanced plan</h3>
+                <div class="cena-kolo">
+                    <p>
+                        211<sup>00</sup>
+                    </p>
+                    <p>
+                      pln/msc
+                    </p>
+                </div>
+                <div id="text-right" class="text-inside">
+                    <p>Zakup towaru + dowóz</p>
+                    <p>Serwis</p>
+                    <p>Gwarancja 6 lat</p>
+                    <p>Porady projektanta</p>
+                </div>
+                <input type="button" name="choice" value="dołącz" class="choice-btn"/>
+            </div>
+        </article>
+    </section>
+    <section id="formula">
+      <article class="main-width">
+          <h3>kontakt</h3>
+          <hr></hr>
+          <input type="text" name="name" placeholder="Imię" class="form"></input>
+          <input type="text" name="email" placeholder="email" class="form"></input>
+          <textarea rows="20" cols="10" placeholder="Wiadomość" class="form" id="message"></textarea>
+      </article>
     </section>
 </body>
 </html>
