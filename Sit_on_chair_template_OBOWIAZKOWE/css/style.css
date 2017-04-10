@@ -36,12 +36,13 @@ body {
   color: white;
   font-weight: bolder;
   list-style: none;
-  margin: 7px auto;
+  padding-top: 7px;
   letter-spacing: 0.3em;
 }
 
 #menu li {
   display: inline-block;
+  height: 28px;
 }
 #menu a {
   margin-left: 30px;
@@ -57,20 +58,75 @@ body {
     background-size: contain;
     box-sizing: border-box;
 }
+.arrow {
+  float: left;
+  width: 10%;
+  height: 400px;
+  position: relative;
+}
+#arrow-left{
+  position: relative;
+  display: block;
+  height: 80px;
+  top: 200px;
+  transform: rotate(90deg);
+  right: 40px;
+}
+#arrow-left:after, #arrow-left:before{
+  position: absolute;
+  display: block;
+  content: "";
+  border: 40px solid transparent;
+}
 
+#arrow-left:before{
+  top:0;
+  border-top-color: #53C6A3;
+}
+
+#arrow-left:after{
+  top: -8px;
+  border-top-color: #f2f2f2;
+}
+
+/* druga strzałka */
+#arrow-right{
+  position: relative;
+  display: block;
+  height: 80px;
+  top: 180px;
+  left: 40px;
+  transform: rotate(270deg);
+}
+#arrow-right:after, #arrow-right:before{
+  position: absolute;
+  display: block;
+  content: "";
+  border: 40px solid transparent;
+}
+
+#arrow-right:before{
+  top:0;
+  border-top-color: #53C6A3;
+}
+
+#arrow-right:after{
+  top: -8px;
+  border-top-color: #f2f2f2;
+}
 #black-chair {
     float: left;
     background-image: url("../images/black_chair.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    width: 50%;
+    background-position: -120px;
+    width: 40%;
     height: 400px;
     margin-top: 50px;
 }
 #zobacz {
-  float: right;
-  width: 50%;
+  float: left;
+  width: 40%;
   height: 400px;
   margin-top: 50px;
   text-align: center;
@@ -96,7 +152,7 @@ body {
   border: 1px solid transparent;
   font-size: 25px;
   color: white;
-  margin: 20px 70px;
+  margin: 20px 55px;
 }
 #chair-examples {
   box-sizing: border-box;
@@ -512,4 +568,31 @@ footer{
 .logo-foot span{
   color: #555;
   font-weight: bolder;
+}
+/* elementy, które są wykorzystywane w JavaSccript */
+.innerMenu{
+  width: 170px;
+  height: 150px;
+  background-color: black;
+  color: white;
+  border-top: 15px solid white;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  top: 35px;
+}
+.arrow-up{
+  position: absolute;
+  top: -15px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid black;
+}
+.invisible {
+  display: none;
 }
